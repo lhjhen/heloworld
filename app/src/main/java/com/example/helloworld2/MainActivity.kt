@@ -23,5 +23,11 @@ class MainActivity : AppCompatActivity() {
             textView.setTextColor(getColor(android.R.color.holo_red_dark))
         }
 
+        val button3 = findViewById<Button>(R.id.button3)
+        button3.setOnClickListener {
+            textView.setBackgroundColor(getColor(android.R.color.holo_blue_light))
+        }
+
+
     }
 }
