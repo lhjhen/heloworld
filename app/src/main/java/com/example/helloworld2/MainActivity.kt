@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
         button2.setOnClickListener {
             textView.setTextColor(getColor(android.R.color.holo_red_dark))
         }
-
+        //lets revert this shit
         val button3 = findViewById<Button>(R.id.button3)
         button3.setOnClickListener {
             textView.setBackgroundColor(getColor(android.R.color.holo_blue_light))
