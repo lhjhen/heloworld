@@ -17,5 +17,11 @@ class MainActivity : AppCompatActivity() {
         button.setOnClickListener {
             textView.text = "Button clicked!"
         }
+
+        val button2 = findViewById<Button>(R.id.button2)
+        button2.setOnClickListener {
+            textView.setTextColor(getColor(android.R.color.holo_red_dark))
+        }
+
     }
 }
